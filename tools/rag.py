@@ -197,7 +197,7 @@ def add_note(
     notes_dir: Path = DEFAULT_NOTES_DIR,
     db_path: Path = DEFAULT_DB_PATH,
 ) -> Path:
-    """Create a new atomic note file conforming to v8 frontmatter and index it."""
+    """Create a new atomic note file conforming to canonical frontmatter and index it."""
     notes_dir.mkdir(parents=True, exist_ok=True)
     today = date.today().isoformat()
     note_num = len(list(notes_dir.glob("*.md"))) + 1

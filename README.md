@@ -1,6 +1,6 @@
 # 🧭 Template Agent
 
-> **Template Canônico de Ecossistema de Agentes com Meta-Governança Autônoma (v8)**  
+> **Template Canônico de Ecossistema de Agentes com Meta-Governança Autônoma**  
 > **Filosofia:** Cloud-First Puro | Zero Inferência Local | Token Economy | Escudo Zero Leaks
 
 ---
@@ -54,7 +54,7 @@ meu-novo-agente/
 ├── MAPA_DO_PROJETO.md        # [MOC] Índice e navegação do ecossistema
 ├── ESTRUTURA_DO_PROJETO.md   # Topologia canônica imutável da árvore de arquivos
 ├── AGENTS.md                 # Roteador mestre e orquestrador global (Nível 1)
-├── agy.yaml                  # Manifesto global do projeto e especificações (v8)
+├── agy.yaml                  # Manifesto global do projeto e governança
 ├── pyproject.toml            # Dependências gerenciadas via uv/pip
 ├── .env.example              # Modelo de variáveis de ambiente
 │

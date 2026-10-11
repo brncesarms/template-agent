@@ -1,7 +1,7 @@
-# 🏛️ Estrutura Canônica do Projeto (AGENTS.md v8)
+# 🏛️ Estrutura Canônica do Projeto (AGENTS.md)
 
 > **Projeto:** `template-agent`  
-> **Especificação:** `AGENTS.md v8`  
+> **Especificação:** `AGENTS.md`  
 > **Status:** Ativo & Imutável  
 
 ---
@@ -12,7 +12,7 @@
 meu_projeto_agy/
 ├── README.md                 # Visão geral, instruções e onboarding do projeto
 ├── MAPA_DO_PROJETO.md        # [MOC] Índice principal e mapa de navegação
-├── agy.yaml                  # Manifesto global do projeto e governança (v8)
+├── agy.yaml                  # Manifesto global do projeto e governança
 ├── AGENTS.md                 # Orquestrador enxuto (roteador global e orçamentador de tokens)
 ├── pyproject.toml            # Dependências gerenciadas via uv/pip
 ├── .env.example              # Exemplo de variáveis de ambiente

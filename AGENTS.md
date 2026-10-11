@@ -1,4 +1,4 @@
-# 🧭 Orquestrador Global & Roteador de Agentes (v8)
+# 🧭 Orquestrador Global & Roteador de Agentes
 
 > **Projeto:** `template-agent` | **Autoridade:** `<Autor / Decisor do Projeto>`  
 > **Filosofia:** Cloud-First Puro | Zero Inferência Local | Token Economy | Escudo Zero Leaks
