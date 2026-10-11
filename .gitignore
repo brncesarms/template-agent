@@ -1,0 +1,33 @@
+# Security & Environment Exclusions
+# Zero-Leak Policy: Credentials and keys must NEVER be tracked by git
+.vault/
+*.vault
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+master.key
+
+# Python / uv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Databases
+*.db-journal
+*.db-wal
+*.sqlite3-journal
+
+# OS & Editor
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/

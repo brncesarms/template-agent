@@ -1,0 +1,38 @@
+version: "8.0.0"
+project: "template-agent"
+title: "Template Canônico - Ecossistema de Agentes"
+date: "2026-10-11"
+decisor: "<Autor / Decisor do Projeto>"
+host: "<Host / Ambiente Canônico>"
+
+principles:
+  cloud_first: true
+  zero_local_inference: true
+  zero_leaks_vault: true
+  progressive_disclosure: true
+  autonomous_autopilot: true
+
+token_economy:
+  max_agent_lines: 150
+  progressive_disclosure_levels: 3
+  auto_prune_history: true
+  enforce_deterministic_tools: true
+
+vault:
+  path: ".vault/credentials.vault"
+  algorithm: "AES-256-GCM"
+  key_env_var: "AGENT_VAULT_KEY"
+  dir_permissions: "0700"
+  file_permissions: "0600"
+
+governance:
+  rule_of_third_occurrence: true
+  proposal_directory: "context/memory/propostas"
+  atomic_notes_directory: "context/memory/notas"
+  scope_monitor:
+    file_count_threshold: 40
+    warning_threshold: 30
+
+memory:
+  db_path: "context/memory/memoria.db"
+  backend: "sqlite-fts5"

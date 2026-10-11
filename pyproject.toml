@@ -1,0 +1,19 @@
+[project]
+name = "template-agent"
+version = "0.1.0"
+description = "Template Canônico para Ecossistemas de Agentes com Governança Autônoma, Progressive Disclosure e Escudo Zero Leaks"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=42.0.0",
+    "mcp>=1.0.0",
+    "pytest>=8.0.0",
+    "pyyaml>=6.0.0",
+    "ruff>=0.1.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.ruff.lint]
+ignore = ["BLE001", "S112"]
